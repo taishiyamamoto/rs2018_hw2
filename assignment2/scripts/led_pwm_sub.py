@@ -14,7 +14,7 @@ def callback(blink):
 
 def led_blink():
 	subprocess.check_call('gpio export 25 out',shell=True)
-	rospy.init_node('led_pwm_subscriber' , anonymous=True)
+	rospy.init_node('led_pwm_subscriber')
 	w.wiringPiSetupSys()
 	w.pinMode(PIN_LED,OUTPUT)
 	w.softPwmCreate(PIN_LED,0,255)
