@@ -1,9 +1,0 @@
-<launch>
-	<arg name="hoge" default="0.0"/>
-
-	<node pkg="assignment2" type="led_pwm_sub.py" name="led_pwm_sub" output="screen"/>
-
-	<node pkg="assignment2" type="led_pwm_pub.py" name="led_pwm_pub">
-		<param name="led_value" value="$(arg hoge)"/>
-	</node>
-</launch>
