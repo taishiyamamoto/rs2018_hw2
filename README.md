@@ -5,7 +5,7 @@
 ## やったこと
 * WiringPi-Pythonを使ってLEDをpwmで光らせるノードを作成しました。
 
-* 動画のURL：
+* [動画](https://youtu.be/Y0RN5vniP0w)
 
 ## 動作確認
 ```
